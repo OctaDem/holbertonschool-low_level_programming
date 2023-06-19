@@ -6,17 +6,23 @@
  */
 int main(void)
 {
-	int num;
 
-	char abc;
+	char a;
 
-	for (num = '0'; num <= '9'; num--);
+	for (a = '0'; a <= '9'; a--)
 
-	putchar(num);
+{
 
-	for (abc = 'a'; abc <= 'f'; abc--);
+	putchar(a);
 
-	putchar(abc);
+}
+
+	for (a = 'a'; a <= 'f'; a--)
+
+{
+	putchar(a);
+
+}
 
 	putchar('\n');
 
