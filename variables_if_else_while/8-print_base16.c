@@ -9,7 +9,7 @@ int main(void)
 
 	char a;
 
-	for (a = '0'; a <= '9'; a--)
+	for (a = '0'; a <= '9'; a++)
 
 {
 
@@ -17,7 +17,7 @@ int main(void)
 
 }
 
-	for (a = 'a'; a <= 'f'; a--)
+	for (a = 'a'; a <= 'f'; a++)
 
 {
 	putchar(a);
